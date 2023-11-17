@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: ; */
+  /* font-family: ; */
+}
+
+a {
+  text-decoration: inherit;
+  /* text-decoration: none; */
+  /* color: yellow; */
+}
+a:hover {
+  color: orangered;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* display: inline-block; */
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff !important;
+    background-color: #4f97a3;
+    border-color: #4f97a3;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:hover{
+  color: #fff !important;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sliderimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover
+}
+
+.colorful-line {
+  height: 5px;
+  margin: 50px 0;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
